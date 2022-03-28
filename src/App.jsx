@@ -1,8 +1,9 @@
+import Intro from './components/intro/intro';
 import './style.css';
 
 
 const App = () => {
-    return <div>This is my React Porftolio!</div>;
+    return <div><Intro/></div>;
   };
   
   export default App;
