@@ -1,3 +1,6 @@
+import './style.css';
+
+
 const App = () => {
     return <div>This is my React Porftolio!</div>;
   };
