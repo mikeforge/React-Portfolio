@@ -1,10 +1,13 @@
 import React from 'react';
 
+import './Navbar.css';
+
+
 const Navbar = () => {
 return (
-    <section>  
+    <section className="navbar">  
+        <a href="/"
         
-        Navbar things
     </section>
 )
 }
