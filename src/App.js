@@ -1,17 +1,18 @@
 import React from 'react';
-import { Header } from './components/common';
+import { Header, Footer } from './components/common';
 import './style.css';
 
 
 const App = () => {
     return (
     <div>
-        <Header/>
+        <Header />
+        <Footer />
         </div>
 
-        // <div>
-        //     <Footer/>
-        // </div>
+        
+        
+        
     );
 }
   

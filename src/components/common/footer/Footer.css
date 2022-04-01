@@ -1,0 +1,13 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .footer-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
