@@ -1,6 +1,6 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
-import { Header, Footer } from './components/common';
+import { Routes, Route } from 'react-router-dom'
+import { Header, Footer, PageTitle } from './components/common';
 import './style.css';
 
 
@@ -8,24 +8,21 @@ import './style.css';
 const App = () => {
     return (
     <div>
-        <Header />
+        <Header />        
+            <Routes>
+                <Route path='/about' element={<PageTitle title='About Me' />} />
+                
+                <Route path='/portfolio' element={<PageTitle title='Portfolio' />} />
+                    
+                <Route path='/contact' element={<PageTitle title='Contact' />} />
+                
+                <Route path='/resume' element={<PageTitle title='Resume' />} />
 
-        <Router>
-            <Switch>
-                <Route path='/about'>
-                    About Me
-                </Route>
-                <Route path='/portfolio'>
-                    Portfolio
-                </Route>
-                <Route path='/contact'>
-                    Contact Me
-                </Route>
-                <Route path='/'>
-                    Home
-                </Route>
-            </Switch>
-        </Router>
+                <Route path='/' element={<PageTitle title='Home' />} />
+            
+            
+            </Routes>
+            
 
         <Footer />
         </div>
