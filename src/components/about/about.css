@@ -1,11 +1,11 @@
-.intro{
+.about{
     display: flex;
 }
 
-.intro-left{
+.about-left{
     flex:1;
 }
 
-.intro-right{
+.about-right{
     flex:1;
 }
